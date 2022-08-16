@@ -1,8 +1,19 @@
 import React from 'react'
+import Tours from './components/Tours'
 
 function App() {
   return (
-    <h1>henlo</h1>
+    <main>
+        <section>
+          <div className="title">
+            <h2>our tours</h2>
+            <div className="underline"></div>
+          </div>
+          <div>
+            <Tours />
+          </div>
+        </section>
+    </main>
   )
 }
 
